@@ -7,7 +7,7 @@ body{
 .cabecalho{
     background-image: url(imagens/cats.png);
     position: relative;
-    height: 97vh;
+    height: 99vh;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body{
 }
 
 .div-cabecalho h1{
-    font-size: 60px;
+    font-size: 3rem;
     text-transform: uppercase;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     /*background: rgba( 255, 255, 255, 0.25 );
@@ -35,7 +35,7 @@ body{
 }
 
 .div-cabecalho h2{
-    font-size: 30px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     margin-bottom: 70px;
@@ -66,7 +66,7 @@ body{
 }
 
 .cabecalho nav ul{
-    margin: 25px 40px 0 0;
+    margin-right: 25px;
     text-align: right;
 }
 
@@ -104,7 +104,7 @@ body{
 main{
     width: 90%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 2rem;
     color: #645a54;
 }
 
@@ -168,3 +168,26 @@ footer h4{
     font-weight: 200;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 750px) {
+    .container{
+        display: block;
+    }
+
+    .cabecalho nav ul{
+        margin-right: 2px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom:0;
+        left: 0;
+    }
+
+}
+
