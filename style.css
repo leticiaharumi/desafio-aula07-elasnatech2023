@@ -171,22 +171,13 @@ footer h4{
 
 
 @media screen and (max-width: 750px) {
-    .container{
-        display: block;
-    }
-
     .cabecalho nav ul{
-        margin-right: 2px;
         display: flex;
-        align-items: center;
+        flex-direction: column;
     }
 
-    footer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        bottom:0;
-        left: 0;
+    .cabecalho nav ul li{
+        margin-bottom: 25px;
     }
 
 }
