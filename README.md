@@ -1,5 +1,5 @@
 # 💼 Desafio Aula 07 │ Elas na Tech 2023
-### 💼 Responsive Mini Portfolio
+### 💼 Mini site
 
 - Mini site responsivo, usando HTML & CSS
 - Contém menu e cards.
